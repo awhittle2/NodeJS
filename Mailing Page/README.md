@@ -1,1 +1,2 @@
 # Mailing Page
+* Used the mailchimp api and bootstrap example log in template to build a web application which takes in a user's email, first name, and last name, then signs them up to a mailchimp mailing list. If the user was successfully signed up, the site will load a successful sign up page, however, if the request failed, a failure page will show instead.

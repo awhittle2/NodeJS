@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> <!-- Boiler plate html-->
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -46,10 +46,10 @@
     <link href="styles.css" rel="stylesheet" />
   </head>
 
-  <body class="text-center">
-    <form class="form-signin" method="post" action="/">
-      <img class="mb-4" src="Java.png" alt="" width="72" height="72" />
-      <h1 class="h3 mb-3 font-weight-normal">Sign Up to My Newsletter!</h1>
+  <body class="text-center"> <!-- Formatting -->
+    <form class="form-signin" method="post" action="/"> <!-- Form for post methods on the home route-->
+      <img class="mb-4" src="Java.png" alt="" width="72" height="72" /> <!-- Image-->
+      <h1 class="h3 mb-3 font-weight-normal">Sign Up to My Newsletter!</h1> <!-- Title-->
       <input
         type="text"
         name="fName"
@@ -57,22 +57,22 @@
         placeholder="First Name"
         required
         autofocus
-      />
+      /> <!-- Input for the name-->
       <input
         type="text"
         name="lName"
         class="form-control middle"
         placeholder="Last Name"
         required
-      />
+      /> <!-- Input for the last name-->
       <input
         type="email"
         name="email"
         class="form-control bottom"
         placeholder="Email"
         required
-      />
-      <button class="btn btn-lg btn-primary btn-block" type="submit">
+      /> <!-- Input for the email-->
+      <button class="btn btn-lg btn-primary btn-block" type="submit"> <!-- Button to submit the form-->
         Sign Me Up!
       </button>
       <p class="mt-5 mb-3 text-muted">&copy; Abi Whittle</p>
