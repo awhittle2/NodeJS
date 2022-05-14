@@ -3,6 +3,7 @@
 
 ### Blog
 * This project uses dynamic routing to create new pages whenever a blog post is added, based on an ejs layout. Users can add blog posts by going to the /compose route. Additionally, users are able to find past blog posts by navigating to the /posts/BlogName route.
+* Site: https://still-eyrie-29380.herokuapp.com/
 
 ### Mailing Page
 * Used the mailchimp api and bootstrap example log in template to build a web application which takes in a user's email, first name, and last name, then signs them up to a mailchimp mailing list. If the user was successfully signed up, the site will load a successful sign up page, however, if the request failed, a failure page will show instead.
