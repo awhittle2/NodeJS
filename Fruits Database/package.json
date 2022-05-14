@@ -1,0 +1,22 @@
+{
+  "name": "fruits-mongodb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awhittle2/Fruits-MongoDB.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/awhittle2/Fruits-MongoDB/issues"
+  },
+  "homepage": "https://github.com/awhittle2/Fruits-MongoDB#readme",
+  "dependencies": {
+    "mongodb": "^4.6.0"
+  }
+}
