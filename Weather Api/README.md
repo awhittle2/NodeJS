@@ -1,1 +1,2 @@
 # Weather Api
+* Used the open weather map api to retrieve information about the weather at a certain location and display that data on a basic web application. The location of which the weather information is displayed is dependent on the user's input.
