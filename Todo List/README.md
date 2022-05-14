@@ -1,1 +1,2 @@
-# ToDo List
+# Todo List
+* Used ejs to design a template where the current date is the title. This web application allows a user to insert items into an array as a simple version of a todo list. Additionally, there is a work route for a separate work todo list and an about page, all made with ejs.

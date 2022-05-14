@@ -1,19 +1,19 @@
-<%- include("header"); -%>
-    <div class="box" id="heading">
-      <h1><%=day%></h1>
+<%- include("header"); -%> <!-- Includes the header-->
+    <div class="box" id="heading"> <!-- Formatting -->
+      <h1><%=day%></h1> <!-- Either writes the day of the week or work depending on which route is using this template-->
     </div>
 
     <div class="box">
-      <%for(var i = 0; i < items.length; i++) {%>
-      <div class="item">
+      <%for(var i = 0; i < items.length; i++) {%> <!-- Loops through all items in the array-->
+      <div class="item"> <!-- Formatting-->
         <input type="checkbox" />
-        <p><%=items[i]%></p>
+        <p><%=items[i]%></p> <!-- Prints the item with formatting-->
       </div>
       <%}%>
 
-      <form class="item" action="/" method="post">
-        <input type="text" name="newItem" placeholder="New Item" autocomplete="off">
-        <button type="submit" name="list" value=<%=day%>>+</button>
+      <form class="item" action="/" method="post"> <!-- Posts the form information on the home route-->
+        <input type="text" name="newItem" placeholder="New Item" autocomplete="off"> <!-- Text input so the user can type what they want-->
+        <button type="submit" name="list" value=<%=day%>>+</button> <!-- Button to submit the post-->
       </form>
     </div>
-<%- include("footer"); -%>
+<%- include("footer"); -%> <!-- Includes the footer-->
