@@ -1,0 +1,12 @@
+<%-include("header");-%> <!-- Includes the header template-->
+<h1>Home</h1> <!-- Title-->
+<p><%=homeStartingContent%></p> <!-- Page content-->
+<hr> <!-- Line -->
+<%posts.forEach(function(post) {%> <!-- Goes through each item in the posts array-->
+    <h2><%=post.title%></h2> <!-- Prints the title to the page-->
+    <p><%=post.body.substring(0, 170) + "..."%> <!-- Prints part of the content to the page-->
+    <a href="/posts/<%=post.title%>">Read More</a> <!-- Prints the link to the page-->
+    </p>
+    <hr> <!-- Line-->
+<%});%>
+<%-include("footer");-%> <!-- Includes the footer template-->
