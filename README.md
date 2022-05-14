@@ -1,5 +1,5 @@
 # NodeJS
-## Contains folders of nodejs based projects
+## Each folder represents a different project
 
 ### Blog
 * This project uses dynamic routing to create new pages whenever a blog post is added, based on an ejs layout. Users can add blog posts by going to the /compose route. Additionally, users are able to find past blog posts by navigating to the /posts/BlogName route.
