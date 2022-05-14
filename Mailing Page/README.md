@@ -1,1 +1,1 @@
-# Mailing-Page
+# Mailing Page
