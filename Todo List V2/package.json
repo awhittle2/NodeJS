@@ -1,7 +1,7 @@
 {
   "name": "todo-list",
   "version": "1.0.0",
-  "description": "",
+  "description": "* Used ejs to design a template where the current date is the title. This web application allows a user to insert items into an array as a simple version of a todo list. Additionally, there is a work route for a separate work todo list and an about page, all made with ejs.",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

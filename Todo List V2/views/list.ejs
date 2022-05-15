@@ -5,10 +5,12 @@
 
     <div class="box">
       <%for(var i = 0; i < items.length; i++) {%> <!-- Loops through all items in the array-->
-      <div class="item"> <!-- Formatting-->
-        <input type="checkbox" />
-        <p><%=items[i]%></p> <!-- Prints the item with formatting-->
-      </div>
+        <form action="/delete" method="post"> <!-- Form to submit data whenever a checkbox is clicked-->
+          <div class="item"> <!-- Formatting-->
+            <input type="checkbox" name="checkbox" onChange="this.form.submit()"> <!-- Submits the form when a checkbox is clicked-->
+            <p><%=items[i].name%></p> <!-- Prints the item with formatting-->
+          </div>
+        </form>
       <%}%>
 
       <form class="item" action="/" method="post"> <!-- Posts the form information on the home route-->
