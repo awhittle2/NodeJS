@@ -7,9 +7,10 @@
       <%for(var i = 0; i < items.length; i++) {%> <!-- Loops through all items in the array-->
         <form action="/delete" method="post"> <!-- Form to submit data whenever a checkbox is clicked-->
           <div class="item"> <!-- Formatting-->
-            <input type="checkbox" name="checkbox" onChange="this.form.submit()"> <!-- Submits the form when a checkbox is clicked-->
+            <input type="checkbox" name="checkbox" value="<%=items[i]._id%>"onChange="this.form.submit()"> <!-- Submits the form when a checkbox is clicked-->
             <p><%=items[i].name%></p> <!-- Prints the item with formatting-->
           </div>
+          <input type="hidden" name="listName" value="<%=day%>"></input>
         </form>
       <%}%>
 
